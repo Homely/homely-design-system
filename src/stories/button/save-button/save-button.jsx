@@ -56,7 +56,6 @@ const SaveButton = ({
       onTouchCancel={handlePressCancel}
     >
       <IconSc isDesktop={isLarge}>
-        CollectionHeart
         {/* <CollectionHeart isChecked={isChecked} isPressed={isPressed} /> */}
       </IconSc>
       {isLarge && text}
