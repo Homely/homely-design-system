@@ -7,3 +7,4 @@ const ThemeDecorator = storyFn => (
 );
 
 export default ThemeDecorator;
+

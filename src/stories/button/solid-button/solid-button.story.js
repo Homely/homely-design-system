@@ -11,4 +11,4 @@ export default {
 
 export const solid = () => <SolidButton>Solid Button</SolidButton>;
 
-export const solidShort = () => <SolidButton short>Short Button</SolidButton>;
+// export const solidShort = () => <SolidButton short>Short Button</SolidButton>;
