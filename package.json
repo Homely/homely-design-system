@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
-  "repository": "https://github.com/Homely/homely-design-system.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Homely/homely-design-system.git"
+  },
   "scripts": {
     "start": "start-storybook -p 9009 -s public",
     "test": "react-scripts test",
