@@ -5,7 +5,7 @@ import * as icons from './shared/icons';
 export { theme, global, icons };
 
 export * from './components/avatar';
-export * from './icon';
+export * from './components/icon';
 
 // Buttons
 export * from './components/buttons/base-button';

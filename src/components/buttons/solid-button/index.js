@@ -1,1 +1,1 @@
-export { default } from './solid-button.jsx';
+export { default } from './solid-button';

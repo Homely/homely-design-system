@@ -1,1 +1,1 @@
-export { default } from './outline-button.jsx';
+export { default } from './outline-button';

@@ -1,1 +1,1 @@
-export { default } from './flat-button.jsx';
+export { default } from './flat-button';
