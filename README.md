@@ -17,22 +17,22 @@ You will also see any lint errors in the console.
 
 ## Build
 
-### `yarn run build`
+#### `yarn run build`
 
 ## Generate changelog
 
-### `yarn auto changelog`
+#### `yarn auto changelog`
 
-### `git commit -m "Changelog for v0.1.0 [skip ci]"`
+#### `git commit -m "Changelog for v0.1.0 [skip ci]"`
 
 ## Publish to npm
 
-### `npm version 0.1.0 -m "Bump version to: %s [skip ci]"
+#### `npm version 0.1.0 -m "Bump version to: %s [skip ci]"`
 
-### `npm publish`
+#### `npm publish`
 
 ## Create a release on GitHub:
 
-### `git push --follow-tags origin master`
+#### `git push --follow-tags origin master`
 
-### `yarn auto release`
+#### `yarn auto release`
