@@ -30,6 +30,13 @@ jobs:
 
       - run: yarn build
       - run: yarn build-storybook
+      - run: yarn test
+      - run: yarn chromatic test --app-code=aa1gc2e7mfl --exit-zero-on-changes
+      - run: |
+          if [ $CIRCLE_BRANCH = "master" ]
+          then
+            yarn release
+          fi
 
 workflows:
   version: 2
