@@ -2,7 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
-import OutlineButton from './outline-button';
+import {OutlineButton} from '.';
 
 export default {
   title: 'Design System|Button',

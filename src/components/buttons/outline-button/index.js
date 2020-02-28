@@ -1,1 +1,1 @@
-export { default } from './outline-button';
+export * from './outline-button';

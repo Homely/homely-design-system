@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import styled, { css } from 'styled-components';
 
-import  Icon  from '.';
+import  {Icon}  from '.';
 import { icons } from './icons';
 
 const Meta = styled.div`

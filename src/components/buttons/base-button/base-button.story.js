@@ -2,7 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
-import BaseButton from './base-button';
+import {BaseButton} from './base-button';
 
 export default {
   title: 'Design System|Button',

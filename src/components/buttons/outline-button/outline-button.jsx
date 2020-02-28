@@ -12,10 +12,8 @@ const propTypes = {
 /**
 Use against shaded or colorful backgrounds. An outline button will maintain the appropriate visual weight and won’t clash with the background color.
 **/
-const OutlineButton = ({ children, ...props }) => (
+export const OutlineButton = ({ children, ...props }) => (
   <OutlineButtonSc {...props}>{children}</OutlineButtonSc>
 );
 
 OutlineButton.propTypes = propTypes;
-
-export default OutlineButton;

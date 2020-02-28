@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SolidButton from './solid-button';
+import {SolidButton} from '.';
 
 export default {
   title: 'Design System|Button',

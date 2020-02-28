@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 // import CollectionHeart from '../../../../collections/components/collection-heart';
-import OutlineButton from '../outline-button';
-import FlatButton from '../flat-button';
+import { OutlineButton } from '../outline-button';
+import { FlatButton } from '../flat-button';
 import { IconSc } from './save-button.style';
 import { action } from '@storybook/addon-actions';
 
@@ -27,7 +27,7 @@ const defaultProps = {
   isPrimary: false
 };
 
-const SaveButton = ({
+export const SaveButton = ({
   listingId,
   label,
   labelChecked,
@@ -68,5 +68,3 @@ const SaveButton = ({
 
 SaveButton.propTypes = propTypes;
 SaveButton.defaultProps = defaultProps;
-
-export default SaveButton;

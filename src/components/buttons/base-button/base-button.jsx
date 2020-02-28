@@ -13,12 +13,10 @@ const propTypes = {
 Use for less important or less commonly used actions since they’re less prominent. For example, plain buttons are used as actions in cards.
 **/
 
-const BaseButton = ({ children, ...props }) => (
+export const BaseButton = ({ children, ...props }) => (
   <BaseButtonSc type="button" {...props}>
     {children}
   </BaseButtonSc>
 );
 
 BaseButton.propTypes = propTypes;
-
-export default BaseButton;

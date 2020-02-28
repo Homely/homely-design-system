@@ -1,1 +1,1 @@
-export { default } from './save-button';
+export * from './save-button';

@@ -2,7 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
-import SaveButton from './save-button';
+import { SaveButton } from '.';
 
 export default {
   title: 'Design System|Button',

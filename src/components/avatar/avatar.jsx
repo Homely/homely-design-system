@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css, keyframes } from 'styled-components';
-import Icon from '../icon';
+import { Icon } from '../icon';
 
 export const sizes = {
   large: 40,
@@ -100,7 +100,7 @@ const Initial = styled.div`
  *   The user’s name should always be present when using Avatar – either printed beside
  *   the avatar or in a tooltip.
  **/
-const Avatar = ({ loading, username, src, size, ...props }) => {
+export const Avatar = ({ loading, username, src, size, ...props }) => {
   let avatarFigure = <Icon icon="useralt" />;
   const a11yProps = {};
 
@@ -150,5 +150,3 @@ Avatar.defaultProps = {
   src: null,
   size: 'large'
 };
-
-export default Avatar;

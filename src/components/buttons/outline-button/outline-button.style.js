@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import BaseButton from '../base-button';
+import { BaseButton } from '../base-button';
 
 const activeStyle = theme => `
   font-weight: ${theme.fontWeights.medium};

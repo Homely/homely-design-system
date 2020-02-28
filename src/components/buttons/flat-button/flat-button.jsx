@@ -14,7 +14,7 @@ const propTypes = {
 Use for less important or less commonly used actions since they’re less prominent. For example, plain buttons are used as actions in cards.
 **/
 
-const FlatButton = ({ children, ...props }) => {
+export const FlatButton = ({ children, ...props }) => {
   const { isDesktop } = usePageInfo();
   return (
     <FlatButtonSc isDesktop={isDesktop} {...props}>
@@ -24,5 +24,3 @@ const FlatButton = ({ children, ...props }) => {
 };
 
 FlatButton.propTypes = propTypes;
-
-export default FlatButton;

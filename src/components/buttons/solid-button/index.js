@@ -1,1 +1,1 @@
-export { default } from './solid-button';
+export * from './solid-button';

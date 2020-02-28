@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import BaseButton from '../base-button';
+import { BaseButton } from '../base-button';
 
 const FlatButtonSc = styled(BaseButton)`
   font-weight: ${({ theme }) => theme.fontWeights.medium};
