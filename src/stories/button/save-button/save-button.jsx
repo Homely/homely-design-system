@@ -7,6 +7,9 @@ import { IconSc } from './save-button.style';
 import { action } from '@storybook/addon-actions';
 
 const propTypes = {
+  /**
+    Number
+    */
   listingId: PropTypes.number.isRequired,
   label: PropTypes.string,
   labelChecked: PropTypes.string,
