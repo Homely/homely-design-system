@@ -15,6 +15,7 @@
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
     "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "release": "auto shipit",
     "chromatic": "CHROMATIC_APP_CODE=aa1gc2e7mfl chromatic"
   },
   "dependencies": {
