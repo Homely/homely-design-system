@@ -77,8 +77,8 @@ export const globalStyles = css`
     font-weight: ${theme.fontWeights.regular};
     font-style: normal;
     font-display: swap;
-    src: url('/assets/fonts/${theme.fontFamily}-regular.woff2') format('woff2'),
-        url('/assets/fonts/${theme.fontFamily}-regular.woff') format('woff');
+    src:  url('assets/fonts/${theme.fontFamily}-regular.woff2') format('woff2'),
+         url('assets/fonts/${theme.fontFamily}-regular.woff') format('woff');
   }
 
   @font-face {
@@ -86,8 +86,8 @@ export const globalStyles = css`
     font-weight: ${theme.fontWeights.medium};
     font-style: normal;
     font-display: swap;
-    src: url('/assets/fonts/${theme.fontFamily}-medium.woff2') format('woff2'),
-        url('/assets/fonts/${theme.fontFamily}-medium.woff') format('woff');
+    src: local('${theme.fontFamily}'), url('assets/fonts/${theme.fontFamily}-medium.woff2') format('woff2'),
+        local('${theme.fontFamily}'), url('assets/fonts/${theme.fontFamily}-medium.woff') format('woff');
   }
 
   @font-face {
@@ -95,8 +95,8 @@ export const globalStyles = css`
     font-weight: ${theme.fontWeights.bold};
     font-style: normal;
     font-display: swap;
-    src: url('/assets/fonts/${theme.fontFamily}-bold.woff2') format('woff2'),
-        url('/assets/fonts/${theme.fontFamily}-bold.woff') format('woff');
+    src: local('${theme.fontFamily}'), url('assets/fonts/${theme.fontFamily}-bold.woff2') format('woff2'),
+        local('${theme.fontFamily}'), url('assets/fonts/${theme.fontFamily}-bold.woff') format('woff');
   }
 
   ${normalize()}
