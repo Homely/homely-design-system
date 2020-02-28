@@ -1,3 +1,16 @@
+# v0.3.2 (Fri Feb 28 2020)
+
+#### ⚠️  Pushed to master
+
+- Update package.json  ([@Morganjackson](https://github.com/Morganjackson))
+- Update readme  ([@Morganjackson](https://github.com/Morganjackson))
+
+#### Authors: 1
+
+- Morgan Jackson ([@Morganjackson](https://github.com/Morganjackson))
+
+---
+
 # v0.3.1 (Fri Feb 28 2020)
 
 #### 🐛  Bug Fix
