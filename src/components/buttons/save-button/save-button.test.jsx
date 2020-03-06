@@ -2,7 +2,7 @@ import 'jest-styled-components';
 import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import SaveButton from './save-button';
+import { SaveButton } from './save-button';
 import { withTheme } from '../../../utils/provider';
 
 const defaultProps = {
