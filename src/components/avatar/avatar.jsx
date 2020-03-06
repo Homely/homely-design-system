@@ -12,7 +12,7 @@ export const sizes = {
 
 const glow = keyframes`
   0%, 100% { opacity: 1; }
-  50% { opacity: .4; }
+  50% { opacity: .5; }
 `;
 
 const Image = styled.div`
